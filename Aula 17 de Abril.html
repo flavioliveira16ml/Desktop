@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Doc nº 17/04 </title>
+</head>
+
+<body>
+    <!--Início das Listas-->
+    <p> Lista não Ordenada </p>
+    <ul>
+        <li> 1º item </li>
+        <il> 2º item </il>
+    </ul>
+
+    <p> Lista Ordenada </p>
+    <ol>
+        <li> 1º item </li>
+        <il> 2º item </il>
+    </ol>
+    <!--Fim das Listas-->
+    
+    <!--Início do Formulário-->
+    <h1> Formulário </h1>
+    <form action="">
+     <fieldset>
+          <label for="telefone"> Telefone <input type="telefone" id="telefone" name="telefone" placeholder="(00)00000-0000"></label> <br>
+          <label for="email"> Email <input type="email" id="email" name="email" placeholder="email@gmail.com"></label> <br>
+          <label for="date"> Data de Nascimento <input type="date" id="dtnascimento" name="dtnascimento" placeholder="dd/mm/aaaa"></label>
+
+         <br>
+
+          <label for="diasemana"> Selecione um Dia da Semana
+            <select name="diasemana" id="diasemana">
+                <option value=""> Selecione </option>
+                <option value="Domingo"> Domingo </option>
+                <option value="Segunda-feira"> Segunda-feira </option>
+                <option value="Terça-feira"> Terça-feira </option>
+                <option value="Quarta-feira"> Quarta-feira</option>
+                <option value="Quinta-feira"> Quinta-feira </option>
+                <option value="Sexta-feira"> Sexta-feira </option>
+                <option value="Sábado"> Sábado </option>
+            </select>
+
+            <!--DATALIST-->
+            <input list="daysemana">
+                <datalist id="daysemana">
+                    <option value=""> Selecione </option>
+                    <option value="Domingo"> Domingo </option>
+                    <option value="Segunda-feira"> Segunda-feira </option>
+                    <option value="Terça-feira"> Terça-feira </option>
+                    <option value="Quarta-feira"> Quarta-feira</option>
+                    <option value="Quinta-feira"> Quinta-feira </option>
+                    <option value="Sexta-feira"> Sexta-feira </option>
+                    <option value="Sábado"> Sábado </option>
+                </datalist>
+          </label>
+
+          <br>
+
+          <br> <label for="mensagem"> Mensagem </label> <br>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10"> Digite sua mensagem... </textarea>
+
+          <br> <button type="button"> Clique Aqui </button>
+          <input type="submit" id="entrar" name="entrar" value="entrar">
+    
+
+          
+     </fieldset>
+        <h1> Tipos de Input </h1>
+         <input type="checkbox" id="Internet"> Internet <br>
+         <input type="radio"> Sim 
+         <input type="radio"> Não <br>
+         <input type="color"> Cor <br>
+         <input type="date"> Data <br>
+         <input type="datetime-local"> Data e Hora local <br>
+         <input type="file"> Arquivo <br>
+         <input type="hidden"> (Escondido) <br>
+         <input type="image"> Imagem <br>
+         <input type="month"> Mês <br>
+         etc
+    </form>
+    <!--Fim do Formulário-->
+    
+</body>
+</html>
